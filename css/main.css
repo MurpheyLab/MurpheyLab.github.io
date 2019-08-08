@@ -30,14 +30,14 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 /* name */
-p.n {
+p.name {
     font-size: 1.5em;
     line-height: 1.6em;
     color: #999;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
 }
-p.n:hover {
+p.name:hover {
     text-decoration: underline;
 }
 /* simple */
