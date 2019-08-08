@@ -30,21 +30,28 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 n { /* name */
-    font-size: 2em;
-    line-height: 2.5em;
-    color: #333;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    color: #999;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
 }
 n:hover {
     text-decoration: underline;
 }
-t { /* title */
-  font-size: 1em;
-  line-height: 1.2em;
-  color: #333;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  font-weight: bold;
+pi { /* p indented */
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 10px;
+}
+pii { /* p indented twice */
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 20px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
