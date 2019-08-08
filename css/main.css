@@ -30,25 +30,25 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 /* name */
-n {
+p.n {
     font-size: 1.5em;
     line-height: 1.6em;
     color: #999;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
 }
-n:hover {
+p.n:hover {
     text-decoration: underline;
 }
 /* simple */
-s1 {
+p.s1 {
     font-size: 1em;
     line-height: 1.2em;
     color: #333;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 /* simple, indented */
-s2 {
+p.s2 {
     font-size: 1em;
     line-height: 1.2em;
     color: #333;
