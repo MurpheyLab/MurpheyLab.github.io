@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:MurpheyLab/MurpheyLab.github.io.git
+	url = https://github.com/MurpheyLab/MurpheyLab.github.io
 	branch = master
