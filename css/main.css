@@ -27,7 +27,7 @@ h1 {
 }
 p {
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.1em;
     color: #333;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -41,6 +41,13 @@ p.name {
 }
 p.name:hover {
     text-decoration: underline;
+}
+p.year {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #999;
+    font-weight: bold;
+    margin-bottom:-10px;
 }
 
 /* simple, indented */
