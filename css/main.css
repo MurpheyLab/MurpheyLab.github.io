@@ -32,11 +32,18 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-/* name */
-p.name {
+p.title {
     font-size: 1.5em;
     line-height: 1.5em;
     color: #999;
+    font-weight: bold;
+    margin-bottom:-10px;
+}
+/* name */
+p.name {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #333;
     font-weight: bold;
     margin-bottom:-10px;
 }
@@ -69,4 +76,21 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
