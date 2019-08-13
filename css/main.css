@@ -25,6 +25,13 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin-bottom:-0.7em;
 }
+
+h2{
+  font-size: 2em;
+  line-height: 2em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  margin-bottom:-0.7em;
+}
 p {
     font-size: 1em;
     line-height: 1.1em;
@@ -81,7 +88,6 @@ ul.posts li {
 
 .column {
   float: left;
-  /* width: 20% */
   width: 12em;
   height: 20em;
   padding: 0.5em;
