@@ -3,3 +3,10 @@ layout: default
 title: News
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br><p class=header>News</p><br><br><br><br><br><br><br><br>
+
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>

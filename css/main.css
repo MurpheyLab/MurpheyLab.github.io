@@ -120,7 +120,7 @@ ul.posts li {
   float: left;
   width: 48%;
   /* 24.4em; */
-  /* height: 20em; */
+  height: 100%;
   padding: 0.2em;
   box-sizing: border-box;
 }
@@ -148,7 +148,6 @@ img {
   width: 11em;
 }
 
-
 #hover_box:hover {
   box-shadow: 0 0 3px 2px #8C4AF7;
 }
@@ -166,12 +165,19 @@ hr {
   border-color: #D3D3D3;
 }
 
-@media (max-width: 1175px) {
+@media (max-width:675px) {
   .banner {
-    height: 10%;
+    height: 13%;
   }
 }
-@media (min-width: 1175px) {
+
+@media (min-width:675px; max-width:1175) {
+  .banner {
+    height: 7%;
+  }
+}
+
+@media (min-width:1175px) {
   .banner {
     height: 7%;
   }
