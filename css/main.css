@@ -1,6 +1,6 @@
 body {
     margin: 0em auto;
-    width: 55%;
+    width: 60%;
     height: 100%;
     background-color:
 }
@@ -173,12 +173,12 @@ hr {
 
 @media (min-width:675px; max-width:1175) {
   .banner {
-    height: 7%;
+    height: 8%;
   }
 }
 
 @media (min-width:1175px) {
   .banner {
-    height: 7%;
+    height: 8%;
   }
 }
