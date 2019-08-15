@@ -9,7 +9,9 @@ nav ul, footer ul {
     padding: 0em;
     list-style: none;
     font-weight: bold;
+    overflow: hidden;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 1em;
@@ -78,6 +80,7 @@ p.person {
     margin-top:-3em;
     margin-bottom:-3em;
 }
+
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -161,4 +164,15 @@ img {
 hr {
   background-color: #D3D3D3;
   border-color: #D3D3D3;
+}
+
+@media (max-width: 1175px) {
+  .banner {
+    height: 10%;
+  }
+}
+@media (min-width: 1175px) {
+  .banner {
+    height: 7%;
+  }
 }
