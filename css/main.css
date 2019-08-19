@@ -96,6 +96,15 @@ ul.posts li {
     list-style: none;
 }
 
+ul.list {
+  font-size: 1em;
+  line-height: 1.1em;
+  color: #333;
+  font-family:"Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0.3em;
+  margin-left: 3em;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -181,4 +190,25 @@ hr {
   .banner {
     height: 8%;
   }
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: .5em;
+  font-size: 10em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  text-decoration: none;
+  /* margin: .5em .2em; */
+  border-radius:1.5em;
+}
+/* Add a hover effect*/
+.fa:hover {
+  opacity: 0.7;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
