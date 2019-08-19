@@ -1,55 +1,54 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Interactive and Emergent Autonomy Lab</title>
-    <!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<style type="text/css" media="screen">
-		 * {
-			 margin: 0;
-			 padding: 0;
-		 }
+<html lang="{{ site.lang | default: "en-US" }}">
 
-		 div.banner {
-			 position: absolute;
-			 top: 0;
-			 left: 0;
-			 background-color: #a9a9a9;
-			 width: 100%;
-			 /* height: 7%; */
-			 overflow: hidden;
-		 }
-		 div.banner-content {
-			 width: 62%;
-			 margin: 0 auto;
-			 padding: 1em;
-			 margin-top: 0.2%;
-			 /* border: .1em solid #000; */
-		 }
-		</style>
-	</head>
-	<body>
-		<div class="banner">
-			<div class="banner-content">
-				<nav>
-		    		<ul>
-		        		<li><a style="color:white; font-size:1.3em;" href="/">Home</a></li>
-		        		<li><a style="color:white; font-size:1.3em;" href="/projects">Projects</a></li>
-			        	<li><a style="color:white; font-size:1.3em;" href="/people">People</a></li>
-		        		<li><a style="color:white; font-size:1.3em;" href="/publications">Publications</a></li>
-								<li><a style="color:white; font-size:1.3em;" href="/news">News</a></li>
-		        		<li><a style="color:white; font-size:1.3em;" href="/art">Art + Media</a></li>
-		    		</ul>
-	    		</nav>
-				</div>
-			</div>
-    		<div class="container">
-          {{ content }}
-    		</div><!-- /.container -->
-        <footer>
-            <ul>
-                <li style="font-weight:normal">Part of the Center for Robotics and Biosystems at Northwestern University</li>
-          </ul>
-        </footer>
-    </body>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+            <h1 id="project_title" style="font-size:210%"><a style="color:white" href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <!-- <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2> -->
+            <nav>
+                <ul>
+                    <!-- <li><a style="color:white; font-size:120%;" href="/">Home</a></li> -->
+                    <li><a style="color:white; font-size:120%;" href="/projects">Projects</a></li>
+                    <li><a style="color:white; font-size:120%;" href="/people">People</a></li>
+                    <li><a style="color:white; font-size:120%;" href="/publications">Publications</a></li>
+                    <li><a style="color:white; font-size:120%;" href="/news">News</a></li>
+                    <li><a style="color:white; font-size:120%;" href="/art">Art + Media</a></li>
+                </ul>
+              </nav>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <ul>
+            <li style="font-weight:normal;color:white">Part of the Center for Robotics and Biosystems at Northwestern University</li>
+        </ul>
+        <!-- {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p> -->
+      </footer>
+    </div>
+
+  </body>
 </html>

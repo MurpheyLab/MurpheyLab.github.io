@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Interactive and Emergent Autonomy Lab</title>
+    <!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<style type="text/css" media="screen">
+		 * {
+			 margin: 0;
+			 padding: 0;
+		 }
+
+		 div.banner {
+			 position: absolute;
+			 top: 0;
+			 left: 0;
+			 background-color: #a9a9a9;
+			 width: 100%;
+			 /* height: 7%; */
+			 overflow: hidden;
+		 }
+		 div.banner-content {
+			 width: 62%;
+			 margin: 0 auto;
+			 padding: 1em;
+			 margin-top: 0.2%;
+			 /* border: .1em solid #000; */
+		 }
+		</style>
+	</head>
+	<body>
+		<div class="banner">
+			<div class="banner-content">
+				<nav>
+		    		<ul>
+		        		<li><a style="color:white; font-size:1.3em;" href="/">Home</a></li>
+		        		<li><a style="color:white; font-size:1.3em;" href="/projects">Projects</a></li>
+			        	<li><a style="color:white; font-size:1.3em;" href="/people">People</a></li>
+		        		<li><a style="color:white; font-size:1.3em;" href="/publications">Publications</a></li>
+								<li><a style="color:white; font-size:1.3em;" href="/news">News</a></li>
+		        		<li><a style="color:white; font-size:1.3em;" href="/art">Art + Media</a></li>
+		    		</ul>
+	    		</nav>
+				</div>
+			</div>
+    		<div class="container">
+          {{ content }}
+    		</div><!-- /.container -->
+        <footer>
+            <ul>
+                <li style="font-weight:normal">Part of the Center for Robotics and Biosystems at Northwestern University</li>
+          </ul>
+        </footer>
+    </body>
+</html>

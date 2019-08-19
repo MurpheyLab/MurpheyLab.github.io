@@ -1,11 +1,10 @@
-body {
-    margin: 0em auto;
-    width: 60%;
-    height: 100%;
-    background-color:
-}
+---
+---
+
+@import "jekyll-theme-slate";
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
     padding: 0em;
     list-style: none;
     font-weight: bold;
@@ -16,70 +15,49 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 1em;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    /* text-decoration: underline; */
-    opacity: .5;
-}
-h1 {
-    font-size: 2.8em;
-    line-height: 2.8em;
-    font-family:"Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-bottom:-0.7em;
-}
 
-p {
-    font-size: 1em;
-    line-height: 1.1em;
-    color: #333;
-    font-family:"Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-bottom: 0.3em;
-}
+// p.title {
+//     font-size: 1.5em;
+//     line-height: 2.3em;
+//     color: #333;
+//     font-weight: bold;
+//     margin-bottom:1em;
+// }
+// /* name */
+// p.name {
+//     font-size: 1.3em;
+//     line-height: 1.3em;
+//     color: #000000;
+//     /* font-weight: bold; */
+//     margin-bottom:0em;
+//     margin-top:0em;
+// }
+// /* p.name:hover {
+//     text-decoration: underline;
+// } */
+// p.year {
+//     font-size: 1.5em;
+//     line-height: 1.5em;
+//     color: #333;
+//     font-weight: bold;
+//     margin-bottom:.5em;
+//     margin-top:1em;
+// }
+//
+// p.header {
+//     font-size: 2.8em;
+//     line-height: 1em;
+//     margin-top:-3em;
+//     margin-bottom:-3em;
+//     font-weight: bold;
+// }
+// p.person {
+//     font-size: 2.8em;
+//     line-height: 1em;
+//     margin-top:-3em;
+//     margin-bottom:-3em;
+// }
 
-p.title {
-    font-size: 1.5em;
-    line-height: 2.3em;
-    color: #333;
-    font-weight: bold;
-    margin-bottom:1em;
-}
-/* name */
-p.name {
-    font-size: 1.3em;
-    line-height: 1.3em;
-    color: #000000;
-    /* font-weight: bold; */
-    margin-bottom:0em;
-    margin-top:0em;
-}
-/* p.name:hover {
-    text-decoration: underline;
-} */
-p.year {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    color: #333;
-    font-weight: bold;
-    margin-bottom:.5em;
-    margin-top:1em;
-}
-
-p.header {
-    font-size: 2.8em;
-    line-height: 1em;
-    margin-top:-3em;
-    margin-bottom:-3em;
-    font-weight: bold;
-}
-p.person {
-    font-size: 2.8em;
-    line-height: 1em;
-    margin-top:-3em;
-    margin-bottom:-3em;
-}
 
 
 footer {
@@ -173,24 +151,24 @@ hr {
   background-color: #D3D3D3;
   border-color: #D3D3D3;
 }
-
-@media (max-width:675px) {
-  .banner {
-    height: 13%;
-  }
-}
-
-@media (min-width:675px; max-width:1175) {
-  .banner {
-    height: 8%;
-  }
-}
-
-@media (min-width:1175px) {
-  .banner {
-    height: 8%;
-  }
-}
+//
+// @media (max-width:675px) {
+//   .banner {
+//     height: 13%;
+//   }
+// }
+//
+// @media (min-width:675px; max-width:1175) {
+//   .banner {
+//     height: 8%;
+//   }
+// }
+//
+// @media (min-width:1175px) {
+//   .banner {
+//     height: 8%;
+//   }
+// }
 
 /* Style all font awesome icons */
 .fa {
