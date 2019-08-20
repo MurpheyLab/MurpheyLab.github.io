@@ -2,107 +2,103 @@
 layout: default
 title: Interactive and Emergent Autonomy Lab
 ---
-<div class="blurb">
-	<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-	* {box-sizing: border-box;}
-	body {font-family: Verdana, sans-serif;}
-	.mySlides {display: none;}
-	img {vertical-align: middle;}
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
 
-	/* Slideshow container */
-	.slideshow-container {
-	  max-width: 80%;
-	  position: relative;
-	  margin: auto;
-	}
+/* Slideshow container */
+/* .slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+} */
 
-	/* Caption text */
-	.text {
-	  color: #000;
-	  font-size: 100%;
-	  padding: .1em;
-	  position: relative;
-		margin-top: -2em;
-	  bottom: -2em;
-	  width: 100%;
-	  text-align: center;
-	}
+/* Caption text */
+.text {
+  color: #000;
+  font-size: 100%;
+  padding: .1em;
+  position: relative;
+	margin-top: -2em;
+  bottom: -2em;
+  width: 100%;
+  text-align: center;
+}
 
-	/* The dots/bullets/indicators */
-	.dot {
-	  height: .7em;
-	  width: .7em;
-	  margin: 1.5em .1em;
-	  background-color: #bbb;
-	  border-radius: 50%;
-	  display: inline-block;
-	  transition: background-color 0.6s ease;
-	}
+/* The dots/bullets/indicators */
+.dot {
+  height: .7em;
+  width: .7em;
+  margin: 1.5em .1em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-	.active {
-	  background-color: #717171;
-	}
+.active {
+  background-color: #717171;
+}
 
-	/* Fading animation */
-	.fade {
-	  -webkit-animation-name: fade;
-	  -webkit-animation-duration: 0.5s;
-		-moz-animation-name: fade;
-	  -moz-animation-duration: 0.5s;
-	  animation-name: fade;
-	  animation-duration: 0.5s;
-	}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+	-moz-animation-name: fade;
+  -moz-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
 
-	@-moz-keyframes fade {
+@-moz-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+ }
+@-webkit-keyframes fade {
 	from {opacity: .4}
 	to {opacity: 1}
-	 }
-	@-webkit-keyframes fade {
-		from {opacity: .4}
-		to {opacity: 1}
-	}
+}
 
-	@keyframes fade {
-		from {opacity: .4}
-		to {opacity: 1}
-	}
-	</style>
-	</head>
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+</style>
+</head>
 
-	<body>
+<body>
 
-	<!-- <h2>Slideshow</h2> -->
+	<!-- <div class="slideshow-container"> -->
 
-	<div class="slideshow-container">
+		<div class="mySlides fade">
+		  <img src="/images/RSS_group.jpg" style="width:100%">
+		  <div class="text">Robotics Science and Systems (RSS) Conference in Freiburg, Germany. June 2019.</div>
+		</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/RSS_group.jpg" style="width:100%">
-	  <div class="text">Robotics Science and Systems (RSS) Conference in Freiburg, Germany. June 2019.</div>
-	</div>
+		<div class="mySlides fade">
+			<img src="/images/MSI_katie.jpg" style="width:56%; margin-left:22%">
+			<div class="text">Katie and the Sawyer.</div>
+		</div>
 
-	<div class="mySlides fade">
-		<img src="/images/MSI_katie.jpg" style="width:56%; margin-left:22%">
-		<div class="text">Katie and the Sawyer.</div>
-	</div>
+		<div class="mySlides fade">
+		  <img src="/images/MSI_rab.jpg" style="width:100%">
+		  <div class="text">Rab demonstrating her experiment.</div>
+		</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/MSI_rab.jpg" style="width:100%">
-	  <div class="text">Rab demonstrating her experiment.</div>
-	</div>
+		<div class="mySlides fade">
+		  <img src="/images/MSI_group.jpg" style="width:100%">
+		  <div class="text">National Robotics Week at the Museum of Science and Industry. April 2019.</div>
+		</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/MSI_group.jpg" style="width:100%">
-	  <div class="text">National Robotics Week at the Museum of Science and Industry. April 2019.</div>
-	</div>
+		<div class="mySlides fade">
+		  <img src="/images/MSI_ola.jpg" style="width:100%">
+		  <div class="text">Ola and the Nao robot.</div>
+		</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/MSI_ola.jpg" style="width:100%">
-	  <div class="text">Ola and the Nao robot.</div>
-	</div>
-
-	</div>
+	<!-- </div> -->
 	<br>
 
 	<div style="text-align:center">
@@ -114,28 +110,25 @@ title: Interactive and Emergent Autonomy Lab
 	</div>
 
 	<script>
-	var slideIndex = 0;
-	showSlides();
+		var slideIndex = 0;
+		showSlides();
 
-	function showSlides() {
-	  var i;
-	  var slides = document.getElementsByClassName("mySlides");
-	  var dots = document.getElementsByClassName("dot");
-	  for (i = 0; i < slides.length; i++) {
-	    slides[i].style.display = "none";
-	  }
-	  slideIndex++;
-	  if (slideIndex > slides.length) {slideIndex = 1}
-	  for (i = 0; i < dots.length; i++) {
-	    dots[i].className = dots[i].className.replace(" active", "");
-	  }
-	  slides[slideIndex-1].style.display = "block";
-	  dots[slideIndex-1].className += " active";
-	  setTimeout(showSlides, 5000); // Change image every 2 seconds
-	}
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
 	</script>
 
-	</body>
-
-
-</div><!-- /.blurb -->
+</body>
