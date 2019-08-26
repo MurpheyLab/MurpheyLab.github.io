@@ -4,12 +4,9 @@ title: News
 ---
 <h1>News</h1>
 <body>
-	<ul class="posts">
-
-	  {% for post in site.posts %}
-			<p style="font-size:.8em; margin-bottom:-.5em;">{{ post.date | date: "%B %-d, %Y" }}</p>
-			<p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
-			<hr>
-	  {% endfor %}
-	</ul>
+  {% for post in site.posts %}
+		<p style="font-size:1em; margin-bottom:-.3em;">{{ post.date | date: "%B %-d, %Y" }}</p>
+		<p style="font-size:1.2em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+		<hr>
+  {% endfor %}
 </body>
