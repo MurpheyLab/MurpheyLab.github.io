@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+            <h1 id="project_title" style="font-size:210%"><a style="color:white" href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <!-- <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2> -->
+            <nav>
+                <ul>
+                  <li><a style="color:white; font-size:120%;" href="/projects">Projects</a></li>
+                  <li><a style="color:white; font-size:120%;" href="/people">People</a></li>
+                  <li><a style="color:white; font-size:120%;" href="/publications">Publications</a></li>
+                  <li><a style="color:white; font-size:120%;" href="/news">News</a></li>
+                  <li><a style="color:white; font-size:120%;" href="/art">Art + Media</a></li>
+                </ul>
+              </nav>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="sidenav">
+    	<h3>Projects</h3>
+    		<p><a href="/projects/ActiveLearningAndDataDrivenControl.html">Active Learning and Data-Driven Control</a>
+    		<a href="/projects/AlgorithmicMatterAndEmergentComputation.html" >Algorithmic Matter and Emergent Computation</a>
+    		<a href="/projects/ControlForNonlinearAndHybridSystems.html">Control for Nonlinear and Hybrid Systems</a>
+    		<a href="/projects/CyberPhysicalSystems.html">Cyber Physical Systems</a>
+    		<a href="/projects/HapticLanguages.html">Haptic Languages</a>
+    		<a href="/projects/HumanSwarmCollaboration.html">Human-Swarm Collaboration</a>
+    		<a href="/projects/RobotAssistedRehabilitation.html">Robot-Assisted Rehabilitation</a>
+    		<a href="/projects/RabProject.html">Project R</a>
+    		<a href="/projects/SoftwareEnabledBiomedicalDevices.html">Software-Enabled Biomedical Devices</a>
+    		<a href="/projects/UnderwaterExploration.html">Underwater Exploration</a>
+    		<a href="/projects/VibrissalResponsiveNeurons.html">Vibrissal Responsive Neurons</a></p>
+    </div>
+
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+
+        <div class="bottomnav">
+          <hr>
+          <h3>Other Projects</h3>
+          	<p><a href="/projects/ActiveLearningAndDataDrivenControl.html">Active Learning and Data-Driven Control</a>
+          	<br><a href="/projects/AlgorithmicMatterAndEmergentComputation.html" >Algorithmic Matter and Emergent Computation</a>
+          	<br><a href="/projects/ControlForNonlinearAndHybridSystems.html">Control for Nonlinear and Hybrid Systems</a>
+          	<br><a href="/projects/CyberPhysicalSystems.html">Cyber Physical Systems</a>
+          	<br><a href="/projects/HapticLanguages.html">Haptic Languages</a>
+          	<br><a href="/projects/HumanSwarmCollaboration.html">Human-Swarm Collaboration</a>
+          	<br><a href="/projects/RobotAssistedRehabilitation.html">Robot-Assisted Rehabilitation</a>
+          	<br><a href="/projects/RabProject.html">Project R</a>
+          	<br><a href="/projects/SoftwareEnabledBiomedicalDevices.html">Software-Enabled Biomedical Devices</a>
+          	<br><a href="/projects/UnderwaterExploration.html">Underwater Exploration</a>
+          	<br><a href="/projects/VibrissalResponsiveNeurons.html">Vibrissal Responsive Neurons</a></p>
+          </div>
+
+      </section>
+
+    </div>
+
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <ul>
+            <li style="font-weight:normal;color:white">Part of the Center for Robotics and Biosystems at Northwestern University</li>
+        </ul>
+        <!-- {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p> -->
+      </footer>
+    </div>
+
+  </body>
+</html>
