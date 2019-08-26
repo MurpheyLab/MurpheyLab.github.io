@@ -133,11 +133,11 @@ hr {
   width: 20%;
   position: fixed;
   z-index: 1;
-  top: 25%;
+  top: 230px;
   left: 3%;
   background: #eee;
   overflow-x: hidden;
-  // padding: 8px 0;
+  padding: 8px 0;
 }
 
 .bottomnav {
@@ -145,7 +145,7 @@ hr {
 }
 
 .sidenav a {
-  padding: 2px 0px 6px 0px;
+  padding: 2px 0px 6px 5px;
   text-decoration: none;
   font-size: 1em;
   line-height: 1em;
