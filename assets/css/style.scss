@@ -16,50 +16,6 @@ nav ul li, footer ul li {
     margin-right: 1em;
 }
 
-// p.title {
-//     font-size: 1.5em;
-//     line-height: 2.3em;
-//     color: #333;
-//     font-weight: bold;
-//     margin-bottom:1em;
-// }
-// /* name */
-// p.name {
-//     font-size: 1.3em;
-//     line-height: 1.3em;
-//     color: #000000;
-//     /* font-weight: bold; */
-//     margin-bottom:0em;
-//     margin-top:0em;
-// }
-// /* p.name:hover {
-//     text-decoration: underline;
-// } */
-// p.year {
-//     font-size: 1.5em;
-//     line-height: 1.5em;
-//     color: #333;
-//     font-weight: bold;
-//     margin-bottom:.5em;
-//     margin-top:1em;
-// }
-//
-// p.header {
-//     font-size: 2.8em;
-//     line-height: 1em;
-//     margin-top:-3em;
-//     margin-bottom:-3em;
-//     font-weight: bold;
-// }
-// p.person {
-//     font-size: 2.8em;
-//     line-height: 1em;
-//     margin-top:-3em;
-//     margin-bottom:-3em;
-// }
-
-
-
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -151,31 +107,12 @@ hr {
   background-color: #D3D3D3;
   border-color: #D3D3D3;
 }
-//
-// @media (max-width:675px) {
-//   .banner {
-//     height: 13%;
-//   }
-// }
-//
-// @media (min-width:675px; max-width:1175) {
-//   .banner {
-//     height: 8%;
-//   }
-// }
-//
-// @media (min-width:1175px) {
-//   .banner {
-//     height: 8%;
-//   }
-// }
 
-/* Style all font awesome icons */
 .fa {
-  padding: .5em;
-  font-size: 10em;
-  width: 2em;
-  height: 2em;
+  padding: .25em;
+  font-size: 5em;
+  width: 1.5em;
+  height: 1.5em;
   text-align: center;
   text-decoration: none;
   /* margin: .5em .2em; */
@@ -188,5 +125,15 @@ hr {
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
+  color: white;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
   color: white;
 }
