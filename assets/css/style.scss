@@ -23,12 +23,12 @@ footer {
 
 
 ul.list {
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: inherit;
+  line-height: inherit;
   color: #333;
   font-family:"Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 0.3em;
-  margin-left: 3em;
+  // margin-bottom: 0em;
+  margin-left: 2em;
 }
 
 * {
