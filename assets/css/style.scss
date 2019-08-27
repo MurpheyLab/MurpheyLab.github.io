@@ -83,6 +83,10 @@ img {
   width: 11em;
 }
 
+video {
+  border-radius: 0.4em;
+}
+
 #hover_box:hover {
   box-shadow: 0 0 3px 2px #8C4AF7;
 }
@@ -130,7 +134,7 @@ hr {
   background: #eee;
   overflow-x: hidden;
   // padding: 3px 0;
-  border-radius:15px;
+  border-radius: 0.4em;
 }
 
 .bottomnav {
@@ -148,7 +152,7 @@ hr {
 
 @media screen and (max-width: 1500px) {
   .sidenav {width: 15%;}
-  .sidenav a {font-size: 0.75em;}
+  .sidenav a {font-size: 0.85em;}
   .bottomnav {display: none}
 }
 
