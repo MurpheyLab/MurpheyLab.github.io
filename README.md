@@ -2,11 +2,20 @@
 ### Clone repo and install necessary
 (this is only done once)
 on your local machine, use the terminal to navigate to the folder you want to store your local version of the website repository in
-
-`git clone https://github.com/MurpheyLab/MurpheyLab.github.io`
+```
+apt-get update
+apt-get upgrade
+git clone https://github.com/MurpheyLab/MurpheyLab.github.io`
+```
 this will create a new folder on your device containing the latest version of the remote repo files on the master branch. the new folder will be named `MurpheyLab.github.io`
-
-install packages...
+navigate to your new folder and install bundler
+```
+cd ~/MurpheyLab.github.io
+sudo gem install bundler
+bundle install
+bundle exec jekyll serve
+```
+Now if you go to `http://127.0.0.1:4000` you will see a local version of your site. To test that it is working, open `MurpheyLab.github.io/people.html` using your favorite text editor and change the word 'People' in line 23 to say something else exciting. Save the file and refresh `http://127.0.0.1:4000`
 
 
 ### Pull repo
