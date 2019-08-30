@@ -124,6 +124,12 @@ hr {
   color: white;
 }
 
+//  Instagram
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 // side navigation bar:
 .sidenav {
   width: 20%;
@@ -168,15 +174,15 @@ hr {
 // SLIDESHOW STUFF:
 .prev {
   float: left;
+  margin-left:-1em;
 }
 
 .next {
   float:right;
+  margin-right:-1em;
 }
 
 .button {
-  background-color: none;
-  border: none;
   color: #bbb;
   text-align: center;
   text-decoration: none;
@@ -197,8 +203,9 @@ hr {
   position: relative;
   margin-top: -2em;
   bottom: -2em;
-  width: 100%;
+  width: 90%;
   text-align: center;
+  vertical-align: middle;
 }
 
 /* The dots/bullets/indicators */

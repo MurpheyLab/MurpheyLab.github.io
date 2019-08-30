@@ -6,64 +6,63 @@ title: Interactive and Emergent Autonomy Lab
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <style>
   * {box-sizing: border-box;}
-  .mySlides {display: none;}
+  .mySlides {display: none; }
   img {vertical-align: middle;}
   </style>
 </head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<button class="button prev" onclick="plusSlides(-1)" style="margin-top:8em">&#10094;</button>
-<button class="button next" onclick="plusSlides(1)" style="margin-top:8em">&#10095;</button>
+<div class="button prev" onclick="plusSlides(-1)" style="margin-top:8em">&#10094;</div>
+<div class="button next" onclick="plusSlides(1)" style="margin-top:8em">&#10095;</div>
 
-<body>
 
-	<div class="mySlides fade">
-	  <img src="/images/rss-group2.jpg" style="width:90%; display:flex; justify-content:center;">
-	  <div class="text">Members of the lab at the Robotics Science and Systems (RSS) Conference in Freiburg, Germany. June 2019.</div>
-	</div>
+<div class="mySlides fade"> <!--  -->
+  <img src="/images/rss-group2.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text">Members of the lab at the Robotics Science and Systems (RSS) Conference in Freiburg, Germany. June 2019.</div>
+</div>
 
-  <div class="mySlides fade">
-	  <img src="/images/Alex_Birthday.jpg" style="width:90%; display:flex; justify-content:center;">
-	  <div class="text">Members of the lab celebrating a birthday! June 2019.</div>
-	</div>
+<div class="mySlides fade">
+  <img src="/images/Alex_Birthday.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text">Members of the lab celebrating a birthday! June 2019.</div>
+</div>
 
-	<div class="mySlides fade">
-		<img src="/images/MSI_katie.jpg" style="width:56%; ; display:flex; justify-content:center;">
-		<div class="text">Katie showing a robot to children at the Museum of Science and Industry. April 2019.</div>
-	</div>
+<div class="mySlides fade"> <!--  -->
+	<img src="/images/MSI_katie.jpg" style="width:56%; ; display:flex; justify-content:center;">
+	<div class="text">Katie showing a robot to children at the Museum of Science and Industry. April 2019.</div>
+</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/MSI_rab.jpg" style="width:90%; display:flex; justify-content:center;">
-	  <div class="text">Rab demonstrating her experiment at the Museum of Science and Industry. April 2019.</div>
-	</div>
+<div class="mySlides fade">
+  <img src="/images/MSI_rab.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text">Rab demonstrating her experiment at the Museum of Science and Industry. April 2019.</div>
+</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/MSI_group.jpg" style="width:90%; display:flex; justify-content:center;">
-	  <div class="text">National Robotics Week at the Museum of Science and Industry. April 2019.</div>
-	</div>
+<div class="mySlides fade"> <!--  -->
+  <img src="/images/MSI_group.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text">National Robotics Week at the Museum of Science and Industry. April 2019.</div>
+</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/MSI_ola.jpg" style="width:90%; display:flex; justify-content:center;">
-	  <div class="text">Ola showing off the Nao robot at the Museum of Science and Industry. April 2019.</div>
-	</div>
+<div class="mySlides fade">
+  <img src="/images/MSI_ola.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text" style="width:90%; display:flex; justify-content:center;">Ola showing off the Nao robot at the Museum of Science and Industry. April 2019.</div>
+</div>
 
-	<div class="mySlides fade">
-	  <img src="/images/WAFR_group.jpg" style="width:90%; display:flex; justify-content:center;">
-	  <div class="text">Members of the lab at the Workshop on Algorithmic Robotics (WAFR) Conference in Merida, Mexico. December 2018.</div>
-	</div>
+<div class="mySlides fade"> <!--  -->
+  <img src="/images/WAFR_group.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text" style="width:90%; display:flex; justify-content:center;">Members of the lab at the Workshop on Algorithmic Robotics (WAFR) Conference in Merida, Mexico. December 2018.</div>
+</div>
 
-  <br>
+<br>
 
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
-    <span class="dot" onclick="currentSlide(7)"></span>
-  </div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
 
 <!-- For slideshow to scroll through -->
 <script>
@@ -111,28 +110,3 @@ title: Interactive and Emergent Autonomy Lab
     dots[slideIndex-1].className += " active";
   }
 </script>
-
-<!--
-<script>
-		var slideIndex = 0;
-		showSlides();
-		function showSlides() {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("dot");
-		  for (i = 0; i < slides.length; i++) {
-		    slides[i].style.display = "none";
-		  }
-		  slideIndex++;
-		  if (slideIndex > slides.length) {slideIndex = 1}
-		  for (i = 0; i < dots.length; i++) {
-		    dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";
-		  dots[slideIndex-1].className += " active";
-		  setTimeout(showSlides, 5000); // Change image every 2 seconds
-		}
-	</script>
- -->
-
-</body>

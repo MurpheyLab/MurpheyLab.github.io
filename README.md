@@ -1,42 +1,50 @@
 # To edit the website
-### Clone repo and install necessary
-(this is only done once)
-on your local machine, use the terminal to navigate to the folder you want to store your local version of the website repository in
+### Clone repo and install necessary packages
+Note: this is only done once.
+On your local machine, use the terminal to navigate to wherever you want to store your local version of the website. Then:
 ```
 apt-get update
 apt-get upgrade
-git clone https://github.com/MurpheyLab/MurpheyLab.github.io`
+git clone https://github.com/MurpheyLab/MurpheyLab.github.io
 ```
-this will create a new folder on your device containing the latest version of the remote repo files on the master branch. the new folder will be named `MurpheyLab.github.io`
-navigate to your new folder and install bundler
+This will update and upgrade your system, and then create a new folder on your device containing the latest version of the website. The new folder will be named `MurpheyLab.github.io`. Next, navigate to this new folder and install `bundler`:
 ```
 cd ~/MurpheyLab.github.io
 sudo gem install bundler
 bundle install
+```
+Now you can create a local version of the website:
+```
 bundle exec jekyll serve
 ```
-Now if you go to `http://127.0.0.1:4000` you will see a local version of your site. To test that it is working, open `MurpheyLab.github.io/people.html` using your favorite text editor and change the word 'People' in line 23 to say something else exciting. Save the file and refresh `http://127.0.0.1:4000`
-
+If you go to the website `http://127.0.0.1:4000` in your browser, you will see a local version of the site. To make sure it's working, open `MurpheyLab.github.io/people.html` using your favorite text editor and change the word 'People' in line 23 to say something else. Save the file and refresh `http://127.0.0.1:4000`. You should see the header of the page change.
 
 ### Pull repo
-navigate to `MurpheyLab.github.io` folder and `git pull`
-this incorporates changes from a remote repo into your current (local) branch
+From now on, every time you want to edit the website you will first have to pull whatever changes other people have made. To do this, navigate to your local folder and pull:
+```
+cd ~/MurpheyLab.github.io
+git pull
+```
+This command incorporates changes from a remote repository into your current (local) branch.
 
 ### Make changes
-add publications, edit your people page, etc. see below sections on those specifics
+You may now add publications, edit your people page, etc. See below sections on specifics of how to make these kinds of changes. If you want to make more structural changes to the website, please make your own branch to test things out. We can merge them later when the lab agrees to the bigger changes.
 
 ### Preview locally
-`bundle exec jekyll serve`
-go to `http://127.0.0.1:4000` on your browser
-every time you save changes one of the files in the MurpheyLab.github.io folder, refresh the local preview to see how they will look
+Use the command `bundle exec jekyll serve` and go to `http://127.0.0.1:4000` on your browser to create a local copy of the website. This allows you to see how your changes will look before making them public.
 
 ### Commit changes
-`git add .` adds all changes
-`git add FILENAME.txt` adds changes from specific files
-`git commit -m "DESCRIBE CHANGES"` commit changes and add a description of what the changes are
+To save the current state of your version of the website, add and commit your edits:
+`git add .` adds all changes   
+`git add FILENAME.txt` adds changes from a specific file   
+Then commit the changes using:   
+`git commit -m "DESCRIBE CHANGES"` to commit changes and add a description of what the changes are
 
 ### Push changes
-`git push origin master` push changes from your local repo to the remote repo. now everyone can see them and the website will be publicly updated.
+To push your changes to the actual, public website, push them to the remote repository:
+`git push origin master` pushes changes from your local repo to the remote repo. Now everyone can see them and the website will be publicly updated.
+
+
 
 
 ## To add a project:
