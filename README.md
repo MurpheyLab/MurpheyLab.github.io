@@ -7,7 +7,7 @@ apt-get update
 apt-get upgrade
 git clone https://github.com/MurpheyLab/MurpheyLab.github.io
 ```
-This will update and upgrade your system, and then create a new folder on your device containing the latest version of the website. The new folder will be named `MurpheyLab.github.io`. Next, navigate to this new folder and install `bundler`:
+This will update and upgrade your system, and then create a new folder on your device containing the latest version of the website. The new folder will be named `MurpheyLab.github.io`. Next, navigate to this new folder and install `bundler`
 ```
 cd ~/MurpheyLab.github.io
 sudo gem install bundler
@@ -17,7 +17,7 @@ Now you can create a local version of the website:
 ```
 bundle exec jekyll serve
 ```
-If you go to the website `http://127.0.0.1:4000` in your browser, you will see a local version of the site. To make sure it's working, open `MurpheyLab.github.io/people.html` using your favorite text editor and change the word 'People' in line 23 to say something else. Save the file and refresh `http://127.0.0.1:4000`. You should see the header of the page change.
+If you go to the website `http://127.0.0.1:4000` in your browser, you will see a local version of the site. To make sure it's working, open `MurpheyLab.github.io/people.html` using your favorite text editor and change the word 'People' in line 23 to say something else. Save the file and refresh `http://127.0.0.1:4000/people`. You should see the header of the page change.
 
 ### Pull repo
 From now on, every time you want to edit the website you will first have to pull whatever changes other people have made. To do this, navigate to your local folder and pull:
@@ -34,15 +34,17 @@ You may now add publications, edit your people page, etc. See below sections on 
 Use the command `bundle exec jekyll serve` and go to `http://127.0.0.1:4000` on your browser to create a local copy of the website. This allows you to see how your changes will look before making them public.
 
 ### Commit changes
-To save the current state of your version of the website, add and commit your edits:
+To save the current state of your version of the website, add and commit your edits:   
 `git add .` adds all changes   
 `git add FILENAME.txt` adds changes from a specific file   
+
 Then commit the changes using:   
 `git commit -m "DESCRIBE CHANGES"` to commit changes and add a description of what the changes are
 
 ### Push changes
-To push your changes to the actual, public website, push them to the remote repository:
-`git push origin master` pushes changes from your local repo to the remote repo. Now everyone can see them and the website will be publicly updated.
+To push your changes to the actual, public website, push them to the remote repository:   
+`git push origin master` pushes changes from your local repo to the remote repo.    
+Now everyone can see them and the website will be publicly updated.
 
 
 
@@ -129,16 +131,17 @@ See other html pages in the people folder for reference. Comment or delete any u
 If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace `PDF` with `Paper`. See other html publications in `publications.html` for reference.
 
 ## To add a news post:
-1. Create a new post by making a copy of and filling out `/_posts/2030-01-01-template.md`
-- change TITLE
+1. Create a new post by making a copy of `/_posts/2019-08-22-murphey-lab-muri.md`
+- change the title
     - line 3
-- change date
+- change the date
     - line 4
-    - date should be in format: YYYY-MM-DD and the post will only show up after that date has occurred
+    - date should be in format: YYYY-MM-DD 
 - add an image (optional)
-    - line 10
-    - alt_text = text that will show if the image doesn't load (e.g., Algorithmic Matter Collectively Foraging)
-    - image_path = (e.g., /images/AlgMatter.jpg)
-    - hover_text = text that will show when mouse hovers over image (e.g., Algorithmic Matter Foraging)
+    - line 7
+    - `![alt_text](image_path "hover_text")`
+    - `alt_text` = text that will show if the image doesn't load (e.g., Algorithmic Matter Collectively Foraging)
+    - `image_path` = (e.g., /images/AlgMatter.jpg)
+    - `hover_text` = text that will show when mouse hovers over image (e.g., Algorithmic Matter Foraging)
 - add text
-    - line 18
+    - line 11
