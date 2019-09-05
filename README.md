@@ -13,6 +13,12 @@ cd ~/MurpheyLab.github.io
 sudo gem install bundler
 bundle install
 ```
+If you get an error "while installing commonmarker" you might need to install additional libraries (zlib and ruby-dev) and then attempt bundle installation again
+ ```
+sudo apt install zlib1g
+sudo apt install ruby-dev
+bundle install
+```  
 Now you can create a local version of the website:
 ```
 bundle exec jekyll serve
@@ -145,3 +151,6 @@ If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`. If th
     - `hover_text` = text that will show when mouse hovers over image (e.g., Algorithmic Matter Foraging)
 - add text
     - line 11
+
+    ---
+    If you have questions, contact Ana.
