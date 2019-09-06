@@ -13,6 +13,12 @@ cd ~/MurpheyLab.github.io
 sudo gem install bundler
 bundle install
 ```
+If you get an error "while installing commonmarker" you might need to install additional libraries (zlib and ruby-dev) and then attempt bundle installation again
+ ```
+sudo apt install zlib1g
+sudo apt install ruby-dev
+bundle install
+```  
 Now you can create a local version of the website:
 ```
 bundle exec jekyll serve
@@ -48,7 +54,7 @@ Now everyone can see them and the website will be publicly updated.
 
 
 
-
+<!--
 ## To add a project:
 1. Create new project page by making a copy of and filling out `/projects/template.html`
     - change TITLE
@@ -70,8 +76,8 @@ See other html pages in the projects folder for reference. Comment or delete any
     - add `<a href="/projects/TTILE.html">TITLE</a></p>` to sidenav (~lines 35-45)  
     - and to bottomnav (~lines 55-65), preferably in alphabetical order
 
-3. Add project to list in `projects.html` (~line 68)
-
+3. Add project to list in `projects.html` (~line 68) -->
+<!--
 ## To add a person:
 1. Create a new person page by making a copy of and filling out `/people/template.html`
     - change NAME
@@ -116,7 +122,7 @@ See other html pages in the projects folder for reference. Comment or delete any
       </div>
       ```
 
-See other html pages in the people folder for reference. Comment or delete any unwanted sections.
+See other html pages in the people folder for reference. Comment or delete any unwanted sections. -->
 
 ## To add a publication:
 1. Add publication to `publications.html` in the format:
@@ -136,7 +142,7 @@ If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`. If th
     - line 3
 - change the date
     - line 4
-    - date should be in format: YYYY-MM-DD 
+    - date should be in format: YYYY-MM-DD
 - add an image (optional)
     - line 7
     - `![alt_text](image_path "hover_text")`
@@ -145,3 +151,6 @@ If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`. If th
     - `hover_text` = text that will show when mouse hovers over image (e.g., Algorithmic Matter Foraging)
 - add text
     - line 11
+
+    ---
+    If you have questions, contact Ana.
