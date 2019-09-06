@@ -26,7 +26,7 @@ ul.list {
   font-size: inherit;
   line-height: inherit;
   color: #333;
-  font-family:"Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Hairline', Lato, sans-serif;
   // margin-bottom: 0em;
   margin-left: 2em;
 }
@@ -68,6 +68,16 @@ ul.list {
 //   padding: 0.2em;
 //   box-sizing: border-box;
 // }
+
+.column4 {
+  float: left;
+  width: 49%;
+}
+
+.column5 {
+  float: right;
+  width: 49%;
+}
 
 /* Clearfix (clear floats) */
 .row::after {
@@ -261,4 +271,118 @@ to {opacity: 1}
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+
+.about-box {
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 10px;
+  // border-color: #FFBC67; //hot girl autumn
+  // border-color: #F2CA04; //ocean sunrise
+  border-color:#134C59;
+  box-sizing: border-box;
+  padding: 15px; 
+  // width: 200px;
+  // height: 150px; 
+}
+
+
+.news-box {
+  border-radius: 25px;
+  // background: #AC6C82; //hot girl autumn
+  // background: #F27407; //ocean sunrise
+  background: #3A848C; 
+  box-sizing: border-box;
+  padding: 15px; 
+  // width: 200px;
+  // height: 150px; 
+}
+
+
+.recentpapers-box {
+  border-radius: 25px;
+  // background: #DA727E; //hot girl autumn
+  // background: #F29F04; //ocean sunrise
+  background: #80B8BF;
+  box-sizing: border-box;
+  padding: 15px; 
+  // width: 200px;
+  // height: 150px; 
+}
+
+
+.fun-colors{
+      
+  font-family: 'Hairline', Lato, sans-serif;
+  // font-style: italic;
+  
+  width:100%;
+  
+  margin: 0 auto;
+  // text-align: center;
+  
+  color:#313131;
+  font-size:45px;
+  font-weight: bold;
+  // position: absolute;
+  -webkit-animation:colorchange 20s infinite alternate;
+  
+  
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
 }
