@@ -3,8 +3,12 @@ layout: default
 ---
 <h3>{{ page.title }}</h3>
 
-<p>{{ page.date |  date: "%B %-d, %Y"  }}</p>
+<body>
 
-<div class="post">
-  {{ content }}<br>
-</div>
+  <p>{{ page.date |  date: "%B %-d, %Y"  }}</p>
+
+  <div class="post">
+    {{ content }}<br>
+  </div>
+  
+</body>

@@ -97,7 +97,7 @@ video {
 }
 
 #hover_box:hover {
-  box-shadow: 0 0 3px 2px #8C4AF7;
+  box-shadow: 0 0 3px 2px black;
 }
 
 .bright {
@@ -108,10 +108,53 @@ video {
     opacity: .5;
 }
 
-.captoin img:hover {
-    opacity: 0.5;
-
+.container {
+  position: relative;
+  width: 100%;
 }
+//
+.caption { /* white text on black background */
+  position: absolute;
+  // top: 0%;
+  bottom: 0%;
+  background: rgba(0, 0, 0, 0.5); /* black see-through background */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white; /* white text */
+  border-radius: 0.4em;
+  text-align: center;
+}
+//
+// .caption { /* black text on white background */
+//   position: absolute;
+//   top: 0%;
+//   background: rgba(255, 255, 255, 0.5); /* white see-through background */
+//   width: 100%;
+//   transition: .5s ease;
+//   opacity:0;
+//   color: black; /* black text */
+//   border-radius: 0.4em;
+//   text-align: center;
+// }
+
+// .caption { /* black text on white background */
+//   position: absolute;
+//   bottom: 0%;
+//   height: 100%;
+//   width: 100%;
+//   opacity: 0;
+//   transition: .5s ease;
+//   background-color: white;
+//   border-radius: 0.4em;
+//   text-align: center;
+//   color: black;
+// }
+
+.container:hover .caption {
+  opacity: 1;
+}
+
 
 hr {
   background-color: #D3D3D3;
@@ -217,7 +260,7 @@ hr {
   position: relative;
   margin-top: -2em;
   bottom: -2em;
-  width: 90%;
+  width: 100%;
   text-align: center;
   vertical-align: middle;
 }
