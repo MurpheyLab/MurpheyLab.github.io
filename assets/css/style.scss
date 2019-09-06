@@ -54,20 +54,10 @@ ul.list {
 .column2 {
   float: left;
   width: 48%;
-  /* 24.4em; */
   height: 100%;
   padding: 0.2em;
   box-sizing: border-box;
 }
-
-// .column3 {
-//   float: left;
-//   width: 52%;
-//   /* 26.4em; */
-//   /* height: 20em; */
-//   padding: 0.2em;
-//   box-sizing: border-box;
-// }
 
 /* Clearfix (clear floats) */
 .row::after {
@@ -97,6 +87,11 @@ video {
 }
 .bright img:hover {
     opacity: .5;
+}
+
+.captoin img:hover {
+    opacity: 0.5;
+
 }
 
 hr {
