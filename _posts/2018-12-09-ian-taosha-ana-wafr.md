@@ -3,8 +3,13 @@ layout: post
 title: "Ian, Taosha, and Ana present at WAFR"
 date: 2018-12-09
 ---
-<img style="border-radius:15px; width:50%" src="/images/wafr_dinner.JPG"
-alt="Lab members attending the conference in Mexico" title="Lab members attending the conference in Mexico">
+<!-- <img style="border-radius:15px; width:50%" src="/images/wafr_dinner.JPG"
+alt="Lab members attending the conference in Mexico"> -->
+<div class="container">
+  <img class="hover_box" style="width:50%" src="/images/wafr_dinner.JPG" alt="Lab members attending the conference in Mexico" >
+  <div class="caption" style="width:50%; bottom:3%"><p>Lab members attending the conference in Mexico</p></div>
+</div>
+
 
 [Ian Abraham](https://murpheylab.github.io/people/ianabraham), [Taosha Fan](https://murpheylab.github.io/people/taoshafan), and [Ana Pervan](https://murpheylab.github.io/people/anapervan) presented papers at the 13th International Workshop on the Algorithmic Foundations of Robotics in Merida, Mexico. Many of the Murphey Lab students also traveled to Mexico to participate in the robotics conference.
 
