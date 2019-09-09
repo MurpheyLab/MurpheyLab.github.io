@@ -3,8 +3,7 @@ layout: post
 title: "Ian, Taosha, and Ana present at WAFR"
 date: 2018-12-09
 ---
-<!-- <img style="border-radius:15px; width:50%" src="/images/wafr_dinner.JPG"
-alt="Lab members attending the conference in Mexico"> -->
+
 <div class="container">
   <img class="hover_box" style="width:50%" src="/images/wafr_dinner.JPG" alt="Lab members attending the conference in Mexico" >
   <div class="caption" style="width:50%; bottom:3%"><p>Lab members attending the conference in Mexico</p></div>

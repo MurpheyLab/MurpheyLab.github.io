@@ -3,8 +3,6 @@ layout: post
 title: "Giorgos Mamakoukas presents at RSS "
 date: 2019-06-22
 ---
-<!-- <img style="border-radius:15px; width:50%" src="/images/RSS_group.jpg"
-alt="Lab members attending the conference in Germany" title="Katie, Rab, Milli, Ana, Kyra, Annalisa, Ola, Kat, Tommy, and Giorgos at RSS"> -->
 
 <div class="container">
   <img class="hover_box" style="width:50%" src="/images/RSS_group.jpg" alt="Lab members attending the conference in Germany" >
