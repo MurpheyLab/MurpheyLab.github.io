@@ -1,55 +1,58 @@
-# To edit the website
-### Clone repo and install necessary packages
-Note: this is only done once.
-On your local machine, use the terminal to navigate to wherever you want to store your local version of the website. Then:
+### To edit the website
+#### Step 0: Clone repo and install necessary packages
+*Note: this is only done once.*   
+1. On your local machine, use the terminal to navigate to wherever you want to store your local version of the website. Then:
 ```
 apt-get update
 apt-get upgrade
 git clone https://github.com/MurpheyLab/MurpheyLab.github.io
 ```
-This will update and upgrade your system, and then create a new folder on your device containing the latest version of the website. The new folder will be named `MurpheyLab.github.io`. Next, navigate to this new folder and install `bundler`
+This will update and upgrade your system, and then create a new folder on your device containing the latest version of the website. The new folder will be named `MurpheyLab.github.io`.
+2.Next, navigate to this new folder and install `bundler`
 ```
 cd ~/MurpheyLab.github.io
 sudo gem install bundler
 bundle install
 ```
-If you get an error "while installing commonmarker" you might need to install additional libraries (zlib and ruby-dev) and then attempt bundle installation again
+3. If you get an error "while installing commonmarker" you might need to install additional libraries (zlib and ruby-dev) and then attempt bundle installation again. If you did not get any errors, skip this part.
  ```
 sudo apt install zlib1g
 sudo apt install ruby-dev
 bundle install
 ```  
-Now you can create a local version of the website:
+4. Now you can create a local version of the website:
 ```
 bundle exec jekyll serve
 ```
-If you go to the website `http://127.0.0.1:4000` in your browser, you will see a local version of the site. To make sure it's working, open `MurpheyLab.github.io/people.html` using your favorite text editor and change the word 'People' in line 23 to say something else. Save the file and refresh `http://127.0.0.1:4000/people`. You should see the header of the page change.
+If you go to the website `http://127.0.0.1:4000` in your browser, you will see a local version of the site.    
 
-### Pull repo
+5. To make sure it's working, open `MurpheyLab.github.io/people/YOURNAME` using your favorite text editor and change YOUR NAME in line 5 to say something else. Save the file and refresh `http://127.0.0.1:4000/people/YOURNAME`. You should see the header of the page change.
+
+#### Step 1: Pull repo
 From now on, every time you want to edit the website you will first have to pull whatever changes other people have made. To do this, navigate to your local folder and pull:
 ```
 cd ~/MurpheyLab.github.io
 git pull
 ```
-This command incorporates changes from a remote repository into your current (local) branch.
+This command incorporates changes from the remote (online) repository into your (local) branch.
 
-### Make changes
-You may now add publications, edit your people page, etc. See below sections on specifics of how to make these kinds of changes. If you want to make more structural changes to the website, please make your own branch to test things out. We can merge them later when the lab agrees to the bigger changes.
+#### Step 2: Make changes
+You may now add publications, edit your people page, add news posts, etc. See below sections for specifics on how to make these kinds of changes. If you want to make more structural changes to the website, please make your own branch to test things out. We can merge them later when the lab agrees to the bigger changes.
 
-### Preview locally
-Use the command `bundle exec jekyll serve` and go to `http://127.0.0.1:4000` on your browser to create a local copy of the website. This allows you to see how your changes will look before making them public.
+#### Step 3: Preview locally
+Use the command `bundle exec jekyll serve` and go to `http://127.0.0.1:4000` on your browser to view a local copy of the website. This allows you to see how your changes will look before making them public.
 
-### Commit changes
+#### Step 4: Commit changes
 To save the current state of your version of the website, add and commit your edits:   
-`git add .` adds all changes   
-`git add FILENAME.txt` adds changes from a specific file   
+`git add .` adds all changes in the folder   
+`git add FILENAME.txt` adds all changes in a specific file   
 
-Then commit the changes using:   
-`git commit -m "DESCRIBE CHANGES"` to commit changes and add a description of what the changes are
+Then commit the changes using `git commit -m "DESCRIBE CHANGES"` to commit changes and add a description of  the changes you made.
 
-### Push changes
-To push your changes to the actual, public website, push them to the remote repository:   
-`git push origin master` pushes changes from your local repo to the remote repo.    
+#### Step 5: Push changes
+To make your changes to the actual, public website, push them to the remote repository using:   
+ `git push origin master`
+
 Now everyone can see them and the website will be publicly updated.
 
 
@@ -124,33 +127,32 @@ See other html pages in the projects folder for reference. Comment or delete any
 
 See other html pages in the people folder for reference. Comment or delete any unwanted sections. -->
 
-## To add a publication:
-1. Add publication to `publications.html` in the format:
+---
+
+### To add a publication:
+1. Add a publication to `publications.html` in the format:
 ```
 <p><b>TITLE</b>
 <br>AUTHORS (first initial, last name)
-<br><i>JOURNAL/CONFERENCE</i>, DETAILS, YEAR. <a href="pdfs/URL.pdf">PDF</a> <a href="pdfs/URL.mp4">VIDEO</a></p>
+<br><i>JOURNAL/CONFERENCE</i>, DETAILS, YEAR. <a href="pdfs/URL.pdf">PDF</a> <a href="pdfs/URL.mp4">Video</a></p>
 ```
+Replace TITLE, AUTHORS, JOURNAL/CONFERENCE, DETAILS, YEAR, and URLs, with the correct information.
+2. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace the display text `PDF` with `Paper`.
+3. If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`.
+4. Add the publication to associated Project and People pages by copying and pasting.
+5. See other publications in `publications.html` for reference.
+---
+### To add a news post:
+1. Create a new post by making a copy of `_posts/YYYY-MM-DD-TEMPLATE.md` in the `_posts` folder
+2. Change the title (line 3)
+3. Change the date (line 4), keeping it in YYYY-MM-DD format
+4. Add an image (line 7, optional)
+  - `IMAGE_PATH` is the path to the image (e.g., /images/griff.jpg)
+  - `ALT_TEXT` is text that will show if the image doesn't load
+  - `CAPTION_TEXT` is text that will show when mouse hovers over image
+5. add text (line 11)
+6. See other posts in the `_posts` folder for reference.
 
-2. Add the publication to associated Project and People pages.
 
-If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace `PDF` with `Paper`. See other html publications in `publications.html` for reference.
-
-## To add a news post:
-1. Create a new post by making a copy of `/_posts/2019-08-22-murphey-lab-muri.md`
-- change the title
-    - line 3
-- change the date
-    - line 4
-    - date should be in format: YYYY-MM-DD
-- add an image (optional)
-    - line 7
-    - `![alt_text](image_path "hover_text")`
-    - `alt_text` = text that will show if the image doesn't load (e.g., Algorithmic Matter Collectively Foraging)
-    - `image_path` = (e.g., /images/AlgMatter.jpg)
-    - `hover_text` = text that will show when mouse hovers over image (e.g., Algorithmic Matter Foraging)
-- add text
-    - line 11
-
-    ---
-    If you have questions, contact Ana.
+---   
+If you have questions, contact Ana.

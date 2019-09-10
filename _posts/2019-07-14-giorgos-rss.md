@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Giorgos Mamakoukas presents at RSS "
+title: "Giorgos presents at RSS"
 date: 2019-06-22
 ---
 
