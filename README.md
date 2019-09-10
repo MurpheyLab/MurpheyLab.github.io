@@ -75,9 +75,9 @@ Replace TITLE, AUTHORS, JOURNAL/CONFERENCE, DETAILS, YEAR, and URLs, with the co
 2. Change the title (line 3)
 3. Change the date (line 4), keeping it in YYYY-MM-DD format
 4. Add an image (line 7, optional)
-  - `IMAGE_PATH` is the path to the image (e.g., /images/griff.jpg)
-  - `ALT_TEXT` is text that will show if the image doesn't load
-  - `CAPTION_TEXT` is text that will show when mouse hovers over image
+     - `IMAGE_PATH` is the path to the image (e.g., /images/griff.jpg)
+     - `ALT_TEXT` is text that will show if the image doesn't load
+     - `CAPTION_TEXT` is text that will show when mouse hovers over image
 5. add text (line 11)
 6. See other posts in the `_posts` folder for reference.
 
