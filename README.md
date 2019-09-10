@@ -135,12 +135,12 @@ See other html pages in the people folder for reference. Comment or delete any u
 <p><b>TITLE</b>
 <br>AUTHORS (first initial, last name)
 <br><i>JOURNAL/CONFERENCE</i>, DETAILS, YEAR. <a href="pdfs/URL.pdf">PDF</a> <a href="pdfs/URL.mp4">Video</a></p>
-```
-Replace TITLE, AUTHORS, JOURNAL/CONFERENCE, DETAILS, YEAR, and URLs, with the correct information.
-2. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace the display text `PDF` with `Paper`.
-3. If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`.
-4. Add the publication to associated Project and People pages by copying and pasting.
-5. See other publications in `publications.html` for reference.
+```   
+Replace TITLE, AUTHORS, JOURNAL/CONFERENCE, DETAILS, YEAR, and URLs, with the correct information.   
+2. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace the display text `PDF` with `Paper`.   
+3. If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`.   
+4. Add the publication to associated Project and People pages by copying and pasting.   
+5. See other publications in `publications.html` for reference.   
 ---
 ### To add a news post:
 1. Create a new post by making a copy of `_posts/YYYY-MM-DD-TEMPLATE.md` in the `_posts` folder
