@@ -7,7 +7,8 @@ apt-get update
 apt-get upgrade
 git clone https://github.com/MurpheyLab/MurpheyLab.github.io
 ```
-This will update and upgrade your system, and then create a new folder on your device containing the latest version of the website. The new folder will be named `MurpheyLab.github.io`.
+This will update and upgrade your system, and then create a new folder on your device containing the latest version of the website. The new folder will be named `MurpheyLab.github.io`.   
+
 2. Next, navigate to this new folder and install `bundler`
 ```
 cd ~/MurpheyLab.github.io
@@ -61,8 +62,7 @@ Now everyone can see them and the website will be publicly updated.
 <p><b>TITLE</b>
 <br>AUTHORS (first initial, last name)
 <br><i>JOURNAL/CONFERENCE</i>, DETAILS, YEAR. <a href="pdfs/URL.pdf">PDF</a> <a href="pdfs/URL.mp4">Video</a></p>
-```
-#######  
+```    
 Replace TITLE, AUTHORS, JOURNAL/CONFERENCE, DETAILS, YEAR, and URLs, with the correct information.   
 2. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace the display text `PDF` with `Paper`.   
 3. If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`.   
