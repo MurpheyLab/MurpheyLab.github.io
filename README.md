@@ -54,7 +54,7 @@ Then commit the changes using `git commit -m "DESCRIBE CHANGES"` to commit chang
 To make your changes to the actual, public website, push them to the remote repository using:   
  `git push origin master`
 
-Now everyone can see them and the website will be publicly updated.
+Now everyone can see them and the website will be publicly updated. If you get an error on this step, someone else may have pushed after you last pulled. To fix this, `git stash` your changes, and talk to Katie or Ian.
 
 ### To add a publication:
 1. Add a publication to `publications.html` in the format:
@@ -66,7 +66,8 @@ Now everyone can see them and the website will be publicly updated.
 Replace TITLE, AUTHORS, JOURNAL/CONFERENCE, DETAILS, YEAR, and URLs, with the correct information.   
 2. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace the display text `PDF` with `Paper`.   
 3. If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`.   
-4. Add the publication to associated Project and People pages by copying and pasting.   
+4. Add the publication to the associated Project pages, the People pages of each author, 
+and the Recent Publications list on the home page, by copying and pasting.   
 5. See other publications in `publications.html` for reference.     
 
 ---
