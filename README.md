@@ -61,13 +61,14 @@ Now everyone can see them and the website will be publicly updated. If you get a
 ```
 <p><b>TITLE</b>
 <br>AUTHORS (first initial, last name)
-<br><i>JOURNAL/CONFERENCE</i>, DETAILS, YEAR. <a href="pdfs/URL.pdf">PDF</a> <a href="pdfs/URL.mp4">Video</a></p>
+<br><i>JOURNAL/CONFERENCE</i>, DETAILS, YEAR. <a href="pdfs/URL.pdf">PDF</a> <a href="videos/URL.mp4">Video</a></p>
 ```    
 Replace TITLE, AUTHORS, JOURNAL/CONFERENCE, DETAILS, YEAR, and URLs, with the correct information.   
 2. If there is no pdf, replace `pdfs/URL.pdf` with a link to the publication and replace the display text `PDF` with `Paper`.   
 3. If there is no video, delete the entire `<a ... </a>` surrounding `VIDEO`.   
-4. Add the publication to the associated Project pages, the People pages of each author, 
-and the Recent Publications list on the home page, by copying and pasting.   
+4. Add the publication to the associated Project pages, the People pages of each author,
+and the Recent Publications list on the home page, by copying and pasting.
+    -  On each of these pages, ensure that the path to the pdf/video is accurate. For example, adding a pdf to a People page requires changing the path to `../pdfs/URL.pdf`
 5. See other publications in `publications.html` for reference.     
 
 ---
