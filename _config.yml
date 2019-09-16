@@ -1,5 +1,6 @@
 theme: jekyll-theme-slate
 title: Interactive and Emergent Autonomy Lab
+description: Todd Murphey's Lab. Part of the Northwestern University Center for Robotics and Biosystems.
 markdown: kramdown
 
 # baseurl: /MurpheyLab.github.io
