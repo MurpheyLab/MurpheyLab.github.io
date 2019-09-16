@@ -56,6 +56,31 @@ To make your changes to the actual, public website, push them to the remote repo
 
 Now everyone can see them and the website will be publicly updated. If you get an error on this step, someone else may have pushed after you last pulled. To fix this, `git stash` your changes, and talk to Katie or Ian.
 
+### To add a pdf and update pdf metadata:
+1. Add your pdf to your local copy of the website by placing it in the folder ~/MurpheyLab.github.io/pdfs.
+2. Check that your pdf has a title, author, and keywords by looking at the document properties either by right-clicking the file or using a pdf viewer. There are a number of applications that can be used to update metadata. An optional method is described below.
+3. If you do not have pdftk already installed, use `sudo apt-get install pdftk`.
+4. Navigate to the pdfs subfolder and run `pdftk mypaper.pdf dump_data output report.txt`.
+5. Open report.txt in a text editor and add the following lines
+```
+InfoBegin
+InfoKey: Title
+InfoValue: The title of your paper goes here
+InfoBegin
+InfoKey: Author
+InfoValue: your name, your coauthors name, your other coauthors name
+InfoBegin
+InfoKey: Keywords
+InfoValue: keyword1, keyword2
+```
+Keep in mind the keywords are used by google like html metatags, so these may not be the exact keywords your list in your paper. However, they are VISIBLE to anyone who downloads your paper, so keep that in mind as you choose keywords.
+
+6. Now you will create a new pdf in some other directory using `pdftk mypaper.pdf update_info report.txt output otherdir/mypaper.pdf`.
+
+7. Replace the original file with the file generated in otherdir/mypaper.pdf.
+
+8. Use `git add` to add your pdf to the repository. Note: As long as you used the name report.txt and it was generated in the directory pdfs, it will be ignored by git. If you used a different name/dir, please make sure you do not add this to the changes staged for commit.
+ 
 ### To add a publication:
 1. Add a publication to `publications.html` in the format:
 ```
