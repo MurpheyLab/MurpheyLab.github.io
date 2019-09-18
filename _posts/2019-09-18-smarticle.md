@@ -23,4 +23,4 @@ date: 2019-09-18
 <br>
 <p><b>A robot made of robots: emergent transport and control of a smarticle ensemble</b>
   <br>W. Savoie, T. A. Berrueta, Z. Jackson, A. Pervan, R. Warkentin, S. Li, T. D. Murphey, K. Wiesenfeld, and D. I. Goldman
-  <br><i>Science: Robotics</i>, vol. 4, no. 34, 2019. <a href="https://robotics.sciencemag.org/content/4/34/eaax4316">Paper</a></p>
+  <br><i>Science Robotics</i>, vol. 4, no. 34, 2019. <a href="https://robotics.sciencemag.org/content/4/34/eaax4316">Paper</a></p>
