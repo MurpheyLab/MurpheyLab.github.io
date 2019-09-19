@@ -1,2 +1,4 @@
+Sitemap: https://murpheylab.github.io/sitemap.xml
+
 User-agent: *
-/social
+Disallow: /social
