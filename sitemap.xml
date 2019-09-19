@@ -4,107 +4,141 @@
 
 	<url>
 		<loc> https://murpheylab.github.io/ </loc>
+		 <changefreq>monthly</changefreq>
+		<priority>1.0</priority>
 	</url>
   <url>
 		<loc> https://murpheylab.github.io/people </loc>
+		 <changefreq>yearly</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/projects </loc>
+		 <changefreq>yearly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/publications </loc>
+		 <changefreq>monthly</changefreq>
+		<priority>0.9</priority>
 	</url>
-	<url>
-		<loc> https://murpheylab.github.io/ </loc>
-	</url>
-
+	
 <!--Publications-->
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019TROAbMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019BePeFiMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019TACTzMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019IJRRMaMaMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019IROSFaWaRuMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019RSSBrMuAr.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019RSSMaCaTaMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2019ICRAKaBeZoMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018RALAbMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018TROMaTzAbMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018WAFRBrMuAr.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018WAFRFaScMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018WAFRPeMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018CDCMaMaMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018RSSAbMaMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018RSSKaFiDeMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018RSSWSBrAbArMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018RSSWSBrMuAr.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018DSCCEnMaCaCoMuTa.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2018PeMuAlgMatChapter.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017RALAbPrHaMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017TASEWiScAnMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017NAHSFlAnMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017CDCFaWeMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017RSSAbToMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017RSSMaMaMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017RSSBrMuAr.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 	<url>
 		<loc> https://murpheylab.github.io/pdfs/2017BookChapterMaAnMu.pdf </loc>
+		<lastmod>2019-09-19</lastmod>
 	</url>
 
 </urlset>
