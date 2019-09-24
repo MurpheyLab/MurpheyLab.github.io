@@ -4,3 +4,5 @@ User-agent: *
 Disallow: /social
 Disallow: /trep/documentation/
 Disallow: /trep/install/
+Disallow: /pdfs/fitz_cv.pdf
+Disallow: /pdfs/cv.pdf
