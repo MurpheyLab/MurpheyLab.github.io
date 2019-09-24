@@ -1,145 +1,1054 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-	<url>
-		<loc> https://murpheylab.github.io/ </loc>
-		 <changefreq>monthly</changefreq>
-		<priority>1.0</priority>
-	</url>
-  <url>
-		<loc> https://murpheylab.github.io/people </loc>
-		 <changefreq>yearly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/projects </loc>
-		 <changefreq>yearly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/publications </loc>
-		 <changefreq>monthly</changefreq>
-		<priority>0.9</priority>
-	</url>
-	
-<!--Publications-->
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019TROAbMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019BePeFiMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019TACTzMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019IJRRMaMaMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019IROSFaWaRuMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019RSSBrMuAr.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019RSSMaCaTaMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2019ICRAKaBeZoMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018RALAbMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018TROMaTzAbMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018WAFRBrMuAr.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018WAFRFaScMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018WAFRPeMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018CDCMaMaMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018RSSAbMaMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018RSSKaFiDeMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018RSSWSBrAbArMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018RSSWSBrMuAr.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018DSCCEnMaCaCoMuTa.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2018PeMuAlgMatChapter.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017RALAbPrHaMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017TASEWiScAnMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017NAHSFlAnMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017CDCFaWeMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017RSSAbToMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017RSSMaMaMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017RSSBrMuAr.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
-	<url>
-		<loc> https://murpheylab.github.io/pdfs/2017BookChapterMaAnMu.pdf </loc>
-		<lastmod>2019-09-19</lastmod>
-	</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--MAIN PAGES-->
+<url>
+  <loc>https://murpheylab.github.io/</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.60</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/publications</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/news</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/art</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+<!--NEWS-->
+  <loc>https://murpheylab.github.io/2019/09/18/smarticle.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2019/08/22/muri-kickoff.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2019/06/22/giorgos-rss.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2019/05/20/darpa.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2019/04/17/scirob.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2019/04/12/muriawarded.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2019/04/10/afsab.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2019/01/09/ola-masters-thesis-and-phd-prospectus.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2018/12/09/ian-taosha-ana-wafr.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2018/09/27/new-lab-members.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/2018/09/24/ana-masters-thesis-and-phd-prospectus.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<!--PROJECTS-->
+<url>
+  <loc>https://murpheylab.github.io/projects/ActiveLearningAndDataDrivenControl</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/HumanSwarmCollaboration</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/AlgorithmicMatterAndEmergentComputation</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/ControlForNonlinearAndHybridSystems</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/CyberPhysicalSystems</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/HapticLanguages</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/InformationMaximizingClinicalDiagnostics</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/UnderwaterExploration</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/RobotAssistedRehabilitation</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/SoftwareEnabledBiomedicalDevices</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/VibrissalResponsiveNeurons</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/CyberPhysicalSystems.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/SoftwareEnabledBiomedicalDevices.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/AlgorithmicMatterAndEmergentComputation.html</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<!--PEOPLE PAGES-->
+<url>
+  <loc>https://murpheylab.github.io/people/toddmurphey</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/rebeccaabbott</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/ianabraham</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/thomasberrueta</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/taoshafan</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/katiefitzsimons</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/olakalinowska</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/giorgosmamakoukas</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/anapervan</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/katarinapopovic</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/ahalyaprabhakar</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/kyrarudy</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/millischlafly</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/annalisataylor</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/alexsamland</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/curie</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/griff</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/gromit</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/people/tina</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<!--PUBLICATIONS-->
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019BePeFiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019TROAbMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019TACTzMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019IJRRMaMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019IROSFaWaRuMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019RSSBrMuAr.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019RSSMaCaTaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2019ICRAKaBeZoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018RALAbMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018TROMaTzAbMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018WAFRBrMuAr.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018WAFRAbPrMuappendix.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018WAFRFaScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018WAFRFaScMuappendix.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018WAFRPeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018CDCMaMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018RSSAbMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018RSSKaFiDeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018RSSWSBrAbArMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018RSSWSBrMuAr.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018DSCCEnMaCaCoMuTa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2018PeMuAlgMatChapter.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017RALAbPrHaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017TASEWiScAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017NAHSFlAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017CDCFaWeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017RSSAbToMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017RSSMaMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017RSSBrMuAr.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2017BookChapterMaAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016JCNDScFlMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016RALBrScDeMuAr.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016TROAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016TASEMaScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016EBRTzMuSc.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016IJRRAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016RALTzWiAnScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016NAHSCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016TROMiSiMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016IJNMEPeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016WAFRPrMaScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016PAMMScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016CDCToMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016CASEMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016RSSFaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016ACCMaMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016ACCToFlPrMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2016ACCFiTzMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015TASEJoScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015CDCFaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015CDCPrFlMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015CDCTzMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015IROSWiScAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ADHSCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ADHSAnFlMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015CASEMiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ICRAMaAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ICRATzBeMuScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ICRAWiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ACCAnMuA.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ACCAnMuB.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2015ACCFlMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014TROWiScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014IROSNeMiMuMa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014ACCMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014ACCTzMuScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014ACCSeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014ACCScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014ACCWiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014IROSScMu_rtmgc.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2014HRIJoBoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013TROMiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013TASELeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013CDCCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013CDCCaMuLong.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013CDCMiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013CDCPeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013IROSAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013IROSSiMiMaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013CASEWiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013ECCFlMuOb.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013ACCLeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013ACCMiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013ACCScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013ACCAnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2013ControlAndArtJoScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012CDCPeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012CDCMiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012CDCCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012CDCFlMuOb.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012IROSMiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012ACCPeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012ACCTrMuPa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012ACCCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012ICRAMuAg.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012ICRAToMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012ICRASeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012ICRAScMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2012PuppetBookJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011AUTCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011TACMaJoMuEg.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011TACJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011CDCPeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011ACCCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011ACCTrMuPa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011ACCMuJo.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011ICRALoMuLy.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011HSCCTrMuPa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2011RSSMuPeSe.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010IJEEMuFa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010CDCCaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010CDCTrMuPa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010CDCSnMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010CASEJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010CASEGiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010ACCJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010ACCTrMuPa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010ICRASeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010ICRACaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2010ECCMMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2009TROJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2009TROJoMuextended.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2009CDCJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2009CDCSeMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2009CASEJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2009CASECaMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2009ACCJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008TROScMuBe.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008IJRRMuLy.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008TEEMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008AUTMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008CASENiMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008ACCMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008ACCTrMuPa.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008ICRAJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008ICRAMuHo.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008AAAIJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2008WAFRJoMoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2007ROBMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2007CASEMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2007ICRAJoMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2007ACCMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2007ACCShMuBe.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2007IROSMuEg.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2007HSCCEgMuLu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2006TROMuBu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2006IFACACEMuFa.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2006ACCShMuBe.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2006ICRAMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2006ICRAShMuBe.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2006WAFRMu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/2004IJRRMuBu.pdf</loc>
+  <lastmod>2019-09-24T15:21:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/projects/RobotAssistedRehabilitation?https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10693/&#34;</loc>
+  <lastmod>2019-09-24T15:21:39+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://murpheylab.github.io/pdfs/cv.pdf</loc>
+  <lastmod>2019-09-24T15:21:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
 
 </urlset>
-
