@@ -1,2 +1,8 @@
+Sitemap: https://murpheylab.github.io/sitemap.xml
+
 User-agent: *
-/social
+Disallow: /social
+Disallow: /trep/documentation/
+Disallow: /trep/install/
+Disallow: /pdfs/fitz_cv.pdf
+Disallow: /pdfs/cv.pdf
