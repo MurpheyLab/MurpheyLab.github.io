@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 title: Interactive &amp; Emergent Autonomy Lab
-description: Todd Murphey's Lab. Part of the Northwestern University Center for Robotics and Biosystems.
+description: The Interactive &amp; Emergent Autonomy Lab is part of the Northwestern University Center for Robotics and Biosystems. Our research focuses on computational methods in data-driven control, information theory in physical systems, and embodied intelligence.
 markdown: kramdown
 
 # baseurl: /MurpheyLab.github.io

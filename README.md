@@ -70,6 +70,9 @@ InfoBegin
 InfoKey: Author
 InfoValue: your name, your coauthors name, your other coauthors name
 InfoBegin
+InfoKey: Subject
+InfoValue: 160 characters or less describing your paper. Try to include keywords for indexing
+InfoBegin
 InfoKey: Keywords
 InfoValue: keyword1, keyword2
 ```
