@@ -13,4 +13,4 @@ date: 2019-06-22
 
 **Local Koopman operators for data-driven control of robotic systems**    
 G. Mamakoukas, M. Castano, X. Tan, and T. D. Murphey    
-*Robotics: Science and Systems (RSS) Proceedings*, 2019.
+*Robotics: Science and Systems (RSS) Proceedings*, 2019.  <a href="/pdfs/2019RSSMaCaTaMu.pdf">PDF</a>

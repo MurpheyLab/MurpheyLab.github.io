@@ -14,12 +14,12 @@ date: 2018-12-09
 
 **Active area coverage from equilibrium**    
 I. Abraham, A. Prabhakar, and T. D. Murphey   
-*Workshop on the Algorithmic Foundations of Robotics (WAFR)*, 2018.   
+*Workshop on the Algorithmic Foundations of Robotics (WAFR)*, 2018. <a href="/pdfs/2018WAFRAbPrMu.pdf">PDF</a>,    <a href="/pdfs/2018WAFRAbPrMuappendix.pdf">Appendix</a>, <a href="/videos/2018WAFRAbPrMu.mp4">Video</a>
 
 **Efficient computation of higher-order variational integrators in robotic simulation and trajectory optimization**    
 T. Fan, J. Schultz, and T. D. Murphey   
-*Workshop on the Algorithmic Foundations of Robotics (WAFR)*, 2018.
+*Workshop on the Algorithmic Foundations of Robotics (WAFR)*, 2018. <a href="/pdfs/2018WAFRFaScMu.pdf">PDF</a>, <a href="/pdfs/2018WAFRFaScMuappendix.pdf">Appendix</a>, <a href="/videos/2018WAFRFaScMu.mp4">Video</a>
 
 **Low complexity control policy synthesis for cyber-free robot design**   
 A. Pervan and T. D. Murphey   
-*Workshop on the Algorithmic Foundations of Robotics (WAFR)*, 2018.
+*Workshop on the Algorithmic Foundations of Robotics (WAFR)*, 2018. <a href="/pdfs/2018WAFRPeMu.pdf">PDF</a>
