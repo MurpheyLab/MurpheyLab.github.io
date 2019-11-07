@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Taosha Wins Best Paper at IROS 2019"
-date: 2019-09-18
+date: 2019-11-07
 ---
 
 <div class="container">
