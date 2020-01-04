@@ -15,7 +15,7 @@ cd ~/MurpheyLab.github.io
 sudo gem install bundler
 bundle install
 ```
-3. If you get an error "while installing commonmarker" you might need to install additional libraries (zlib and ruby-dev) and then attempt bundle installation again. If you did not get any errors, skip this part.
+3. If you get an error "while installing commonmarker" you might need to install additional libraries (zlib and ruby-dev) and then attempt bundle installation again. For MAC users, visit https://sourabhbajaj.com/mac-setup/Ruby/README.html and follow the steps there. If you did not get any errors, skip this part.
  ```
 sudo apt install zlib1g
 sudo apt install ruby-dev
