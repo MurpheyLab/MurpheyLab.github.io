@@ -3,10 +3,6 @@ layout: post
 title: "Ian Wins 2019 King-Sun Fu IEEE Transactions on Robotics Best Paper award"
 date: 2020-03-25
 ---
-<div class="container">
-  <img class="hover_box" style="width:50%" src="IMAGE_PATH" alt="ALT_TEXT" >
-  <div class="caption" style="width:50%; bottom:3%"><p>CAPTION_TEXT</p></div>
-</div>
 
 [Ian Abraham](https://murpheylab.github.io/people/ianabraham) won the 2019 
  King-Sun Fu IEEE Transactions on Robotics Best Paper award.  Congratulations, Ian!
