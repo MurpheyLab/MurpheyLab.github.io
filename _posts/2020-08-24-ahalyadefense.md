@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ahalya Prabhakar defends her Ph.D. thesis
-date: 2020-07-29
+date: 2020-08-24
 ---
 <div class="container">
   <!--<img class="hover_box" style="width:50%" src="IMAGE_PATH" alt="ALT_TEXT" > -->
