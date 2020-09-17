@@ -9,4 +9,4 @@ date: 2020-07-29
 </div>
 
 
-Ian Abraham defended his Ph.D. thesis, titled <i>Optimal Experimental Learning and Infinite Linear Embeddings</i> today will soon join Howie Choset's group at CMU as a postdoc. Defending online is a challenge and he did an awesome jobs. We will miss him!
+Ian Abraham defended his Ph.D. thesis, titled <i>Optimal Experimental Learning and Infinite Linear Embeddings</i> today will soon join Howie Choset's group at CMU as a postdoc. Defending online is a challenge and he did an awesome job. We will miss him!
