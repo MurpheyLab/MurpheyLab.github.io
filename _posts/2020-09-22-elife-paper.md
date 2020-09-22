@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TITLE
+title: Paper comes out in eLife
 date: 2020-09-22
 ---
 
