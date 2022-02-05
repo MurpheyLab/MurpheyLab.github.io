@@ -1,2 +1,4 @@
 _site
 pdfs/report.txt
+.bundle/*
+vendor/*
