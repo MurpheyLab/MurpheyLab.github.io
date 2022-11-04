@@ -28,6 +28,11 @@ title: Home
 <div class="button next" onclick="plusSlides(1)" style="margin-top:8em">&#10095;</div>
 
 <div class="mySlides fade"> <!--  -->
+  <img src="/images/allie_ahalya_isrr.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text">Allie and Ahalya at International Symposium of Robotics Research (ISRR) in Switzerland, 2022.</div>
+</div>
+
+<div class="mySlides fade"> <!--  -->
   <img src="/images/rss2022_columbia.jpg" style="width:90%; display:flex; justify-content:center;">
   <div class="text">Members of the lab at Robotics: Science and Systems (RSS) in New York City, 2022.</div>
 </div>
@@ -162,6 +167,7 @@ title: Home
   <span class="dot" onclick="currentSlide(20)"></span>
   <span class="dot" onclick="currentSlide(21)"></span>
   <span class="dot" onclick="currentSlide(22)"></span>
+  <span class="dot" onclick="currentSlide(23)"></span>
 </div>
 
 <!-- For slideshow to scroll through -->
@@ -230,6 +236,8 @@ title: Home
   <div class="column4">
       <div class="news-box">
         <h2><a href="/news" style="color:black">News</a></h2>
+        <p><b>October 2, 2022</b> <a href="/2022/10/02/ola-cogsci" style="color:black">New emergent communication paper out at Annual Meeting of the Cognitive Science Society</a></p>
+        <p><b>September 25, 2022</b> <a href="/2022/09/25/muchen-isrr" style="color:black">New point set registration paper out at International Symposium of Robotics Research</a></p>
         <p><b>June 20, 2022</b> <a href="/2022/06/20/ahalya-nature-communications" style="color:black">New embodied active learning paper out on Nature Communications</a></p>
         <p><b>June 2, 2022</b> <a href="/2022/06/02/allie-hybrid-rl-ijrr" style="color:black">New hybrid reinforcement learning paper out on IJRR</a></p>
         <p><b>May 24, 2022</b> <a href="/2022/05/24/tommy-presidential-fellowship" style="color:black">Tommy received 2022 Northwestern University Presidential Fellowship</a></p>
@@ -240,8 +248,8 @@ title: Home
         <p><b>September 16, 2021</b> <a href="/2021/09/16/anathesisdefense" style="color:black">Ana defends Ph.D. thesis</a></p>
         <p><b>Angust 10, 2021</b> <a href="/2021/08/10/annalisareview" style="color:black">New review paper on active learning in robotics</a></p>
         <p><b>May 10, 2021</b> <a href="/2021/05/10/taoshaiccv" style="color:black">Human pose tracking paper accepted to ICCV</a></p>
-        <p><b>May 10, 2021</b> <a href="/2021/05/10/muchenrss" style="color:black">Social navigation paper accepted to RSS</a></p>
-        <p><b>May 7, 2021</b> <a href="/2021/05/07/giorgosthesisdefense" style="color:black">Giorgos defends Ph.D. thesis</a></p>
+        <!-- <p><b>May 10, 2021</b> <a href="/2021/05/10/muchenrss" style="color:black">Social navigation paper accepted to RSS</a></p> -->
+        <!-- <p><b>May 7, 2021</b> <a href="/2021/05/07/giorgosthesisdefense" style="color:black">Giorgos defends Ph.D. thesis</a></p> -->
         <!-- <p><b>April 24, 2021</b> <a href="/2021/04/24/giorgostro.html" style="color:black">Giorgos's work on derivative-based Koopman operators gets accepted to IEEE T-RO</a></p> -->
         <!-- <p><b>March 26, 2021</b> <a href="/2021/03/26/icrawithuiuc.html" style="color:black">Paper on Autotuning MPC</a> and <a href="/2021/03/26/olaahalyakatiepublishaticra.html" style="color:black"> ergodic imitation</a> both get accepted to ICRA 2021</p> -->
         <!-- <p><b>February 22, 2021</b> <a href="/2021/02/22/rabdefense.html" style="color:black">Rab defends her PhD thesis</a></p> -->
@@ -278,6 +286,12 @@ title: Home
   <div class="column5">
     <div class="recentpapers-box">
       <h2><a href="/publications" style="color:black">Recent Papers</a></h2>
+      <p><b>Towards situated communication in multi-step interactions: Time is a key pressure in communication emergence</b>
+        <br>A. Kalinowska, E. Davoodi, K. W. Mathewson, T. D. Murphey, P. Pilarski
+        <br><i>Annual Meeting of the Cognitive Science Society (CogSci)</i>, 2022. <a href="../pdfs/2022CogSciKaDaMaMuPi.pdf">PDF</a></p>
+      <p><b>Scale-Invariant Fast Functional Registration</b>
+        <br>M. Sun, A. Pinosky, I. Abraham, T. D. Murphey
+        <br><i>International Symposium of Robotics Research (ISRR)</i>, 2022. <a href="https://arxiv.org/pdf/2209.12763.pdf">PDF</a>, <a href="https://github.com/MurpheyLab/FLS">Code</a></p>
       <p><b>Mechanical Intelligence For Learning Embodied Sensor-Object Relationships</b>
         <br>A. Prabhakar, T. D. Murphey
         <br><i>Nature Communications, 2022</i>. <a href="https://www.nature.com/articles/s41467-022-31795-2">PDF</a>, <a href="https://github.com/apr600/mechanical-intelligence">Code</a></p> 
@@ -287,12 +301,12 @@ title: Home
       <p><b>Memristor Circuits for Colloidal Robotics: Temporal Access to Memory, Sensing, and Actuation</b>
         <br>J. F. Yang, A. T. Liu, T. A. Berrueta, G. Zhang, A. M. Brooks, V. B. Koman, S. Yang, X. Gong, T. D. Murphey, M. S. Strano
         <br><i>Advanced Inetlligent Systems</i>, 2021. <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/aisy.202100205">PDF</a></p>
-      <p><b>Mechanical computing</b>
+      <!-- <p><b>Mechanical computing</b>
         <br>H. Yasuda,  P. R. Buskohl, A. Gillman, T. D. Murphey, S. Stepney, R. A. Vaia, and J. R. Raney
-        <br><i>Nature</i>, 2021. <a href="https://www.nature.com/articles/s41586-021-03623-y">Article</a></p>
-      <p><b>Active learning in robotics: A review of control principles</b>
+        <br><i>Nature</i>, 2021. <a href="https://www.nature.com/articles/s41586-021-03623-y">Article</a></p> -->
+      <!-- <p><b>Active learning in robotics: A review of control principles</b>
         <br>A. T. Taylor, T. A. Berrueta, and T. D. Murphey
-        <br><i>Mechatronics</i>, 2021. <a href="https://arxiv.org/pdf/2106.13697.pdf">PDF</a></p>
+        <br><i>Mechatronics</i>, 2021. <a href="https://arxiv.org/pdf/2106.13697.pdf">PDF</a></p> -->
       <!-- <p><b>Revitalizing Optimization for 3D Human Pose and Shape Estimation: A Sparse Constrained Formulation</b> -->
         <!-- <br>T. Fan, K. V. Alwala, D. Xiang, W. Xiang, T. D. Murphey, and M. Mukadam -->
         <!-- <br><i>IEEE Int. Conf. on Computer Vision (ICCV)</i>, 2021. <a href="/pdfs/2021ICCVFaMuMu.pdf">PDF</a></p> -->
