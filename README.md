@@ -40,6 +40,8 @@ This command incorporates changes from the remote (online) repository into your 
 #### Step 2: Make changes
 You may now add publications, edit your people page, add news posts, etc. See below sections for specifics on how to make these kinds of changes. If you want to make more structural changes to the website, please make your own branch to test things out. We can merge them later when the lab agrees to the bigger changes.
 
+To add a new project, make sure you add a new entry in both "projects.html" and "project.html".
+
 #### Step 3: Preview locally
 Use the command `bundle exec jekyll serve` and go to `http://127.0.0.1:4000` on your browser to view a local copy of the website. This allows you to see how your changes will look before making them public.
 
