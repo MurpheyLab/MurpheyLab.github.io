@@ -28,6 +28,11 @@ title: Home
 <div class="button next" onclick="plusSlides(1)" style="margin-top:8em">&#10095;</div>
 
 <div class="mySlides fade">
+  <img src="/images/2026HelenaFair_resized.jpg" style="width:90%; display:flex; justify-content:center;">
+  <div class="text">Helena presenting at the department research fair. January 2026.</div>
+</div>
+
+<div class="mySlides fade">
   <img src="/images/rss25_lab_photo.JPG" style="width:90%; display:flex; justify-content:center;">
   <div class="text">Former and current lab members reuniting at RSS 2025. June 2025.</div>
 </div>
@@ -218,6 +223,7 @@ title: Home
   <span class="dot" onclick="currentSlide(26)"></span>
   <span class="dot" onclick="currentSlide(27)"></span>
   <span class="dot" onclick="currentSlide(28)"></span>
+  <span class="dot" onclick="currentSlide(29)"></span>
 </div>
 
 <!-- For slideshow to scroll through -->
@@ -286,6 +292,7 @@ title: Home
   <div class="column4">
       <div class="news-box">
         <h2><a href="/news" style="color:black">News</a></h2>
+        <p><b>May 24, 2025</b> <a href="https://robotics.northwestern.edu/news-events/articles/2025/todd-murphey-receives-the-ieee-robotics-and-automation-societys-distinguished-service-award.html" style="color:black">Todd receives the IEEE RAS Distinguished Service Award</a></p>
         <p><b>Nov 13, 2024</b> <a href="/2024/11/13/jueun-joining" style="color:black">Jueun Kwon joins the lab</a></p>
         <p><b>May 2, 2024</b> <a href="https://www.nature.com/articles/s42256-024-00829-3" style="color:black">New paper accepted to Nature Machine Intelligence</a></p>
         <p><b>Feb 15, 2024</b> <a href="https://academic.oup.com/pnasnexus/article/3/2/pgae016/7564677" style="color:black">New paper accepted to PNAS Nexus</a></p>
@@ -344,27 +351,45 @@ title: Home
   <div class="column5">
     <div class="recentpapers-box">
       <h2><a href="/publications" style="color:black">Recent Papers</a></h2>
-      <p><b>Safe Coverage for Heterogeneous Systems With Limited Connectivity</b>
-        <br>A. T. Taylor, T. A. Berrueta, A. Pinosky, T. D. Murphey
-        <br><i>IEEE Robotics and Automation Letters (Volume 9, Issue 10)</i>, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10669222">PDF</a></p>
-      <p><b>Active Exploration for Real-Time Haptic Training</b>
-        <br>J. Ketchum, A. Prabhakar, T. D. Murphey
-        <br><i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 2024. <a href="https://ieeexplore.ieee.org/document/10610782">PDF</a></p>
+      <p><b>Real-Time Reinforcement Learning for Dynamic Tasks with a Parallel Soft Robot</b>
+        <br>J. Avtges, J. Ketchum, M. Schlafly, H. Young, T. Kim, A. Pinosky, R. L. Truby, T. D. Murphey
+        <br><i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2025. <a href="https://ieeexplore.ieee.org/abstract/document/11246440">PDF</a></p>
+      <p><b>Sample-Efficient Online Control Policy Learning with Real-Time Recursive Model Updates</b>
+        <br>Z. Zhang, J. Avtges, T. D. Murphey
+        <br><i>Conference on Robot Learning (CoRL)</i>, 2025. <a href="https://proceedings.mlr.press/v305/zhang25d.html">PDF</a></p>
+      <p><b>Flow Matching Ergodic Coverage</b>
+        <br>M. M. Sun, A. Pinosky, T. D. Murphey
+        <br><i>Robotics: Science and Systems (RSS)</i>, 2025. <a href="https://arxiv.org/abs/2504.17872">PDF</a></p>
+      <p><b>Data Augmentation for NeRFs in the Low Data Limit</b>
+			<br>A. Gaggar, T. D. Murphey
+			  <br><i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 2025. <a href="https://arxiv.org/abs/2503.02092">PDF</a></p>
+      <p><b>Inverse Mixed Strategy Games with Generative Trajectory Models</b>
+        <br>M. M. Sun, P. Trautman, T. D. Murphey
+			<br><i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 2025. <a href="https://arxiv.org/abs/2502.03356">PDF</a></p>
+      <p><b>Embodied Active Learning of Generative Sensor-Object Models</b>
+        <br>A. Pinosky, T. D. Murphey
+        <br><i>International Symposium of Robotics Research (ISRR)</i>, 2024. <a href="https://arxiv.org/abs/2410.11130">PDF</a></p>
       <p><b>Maximum diffusion reinforcement learning</b>
         <br>T. A. Berrueta, A. Pinosky, T. D. Murphey
         <br><i>Nature Machine Intelligence (6, 504–514)</i>, 2024. <a href="https://www.nature.com/articles/s42256-024-00829-3">PDF</a></p>
-      <p><b>Collaborative Robots Can Augment Human Cognition in Regret-Sensitive Tasks</b>
+      <!-- <p><b>Safe Coverage for Heterogeneous Systems With Limited Connectivity</b>
+          <br>A. T. Taylor, T. A. Berrueta, A. Pinosky, T. D. Murphey
+          <br><i>IEEE Robotics and Automation Letters (Volume 9, Issue 10)</i>, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10669222">PDF</a></p> -->
+      <!-- <p><b>Active Exploration for Real-Time Haptic Training</b>
+        <br>J. Ketchum, A. Prabhakar, T. D. Murphey
+        <br><i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 2024. <a href="https://ieeexplore.ieee.org/document/10610782">PDF</a></p> -->
+      <!-- <p><b>Collaborative Robots Can Augment Human Cognition in Regret-Sensitive Tasks</b>
         <br>M. Schlafly, A. Prabhakar, K. Popovic, G. Schlafly, C. Kim, T. D. Murphey
-        <br><i>PNAS Nexus (Volume 3, Issue 2)</i>, 2024. <a href="https://academic.oup.com/pnasnexus/article/3/2/pgae016/7564677">PDF</a></p>
-      <p><b>Automated Gait Generation For Walking, Soft Robotic Quadrupeds</b>
+        <br><i>PNAS Nexus (Volume 3, Issue 2)</i>, 2024. <a href="https://academic.oup.com/pnasnexus/article/3/2/pgae016/7564677">PDF</a></p> -->
+      <!-- <p><b>Automated Gait Generation For Walking, Soft Robotic Quadrupeds</b>
         <br>J. Ketchum, S. Schiffer, M. Sun, P. Kaarthik, R. L. Truby, T. D. Murphey
-        <br><i>IEEE International Conference on Intelligent Robots and Systems (IROS)</i>, 2023. <a href="https://arxiv.org/abs/2310.00498">PDF</a></p>
-      <p><b>Embodied Communication: How Robots and People Communicate Through Physical Interaction</b>
+        <br><i>IEEE International Conference on Intelligent Robots and Systems (IROS)</i>, 2023. <a href="https://arxiv.org/abs/2310.00498">PDF</a></p> -->
+      <!-- <p><b>Embodied Communication: How Robots and People Communicate Through Physical Interaction</b>
         <br>A. Kalinowska, P. M. Pilarski, T. D. Murphey
-        <br><i>Annual Review of Control, Robotics, and Autonomous Systems, 2023</i>. <a href="https://www.annualreviews.org/doi/full/10.1146/annurev-control-070122-102501">PDF</a></p> 
-      <p><b>Scale-Invariant Specifications for Human-Swarm Systems</b>
+        <br><i>Annual Review of Control, Robotics, and Autonomous Systems, 2023</i>. <a href="https://www.annualreviews.org/doi/full/10.1146/annurev-control-070122-102501">PDF</a></p>  -->
+      <!-- <p><b>Scale-Invariant Specifications for Human-Swarm Systems</b>
         <br>J. Meyer, A. Prabhakar, A. Pinosky, I. Abraham, A. Taylor, M. Schlafly, K. Popovic, G. Diniz, B. Teich, B. Simidchieva, S. Clark, T. D. Murphey
-        <br><i></i>Journal of Field Robotics (JFR), 2022. <a href="/pdfs/2022JFRMePrMu.pdf">PDF</a></p>
+        <br><i></i>Journal of Field Robotics (JFR), 2022. <a href="/pdfs/2022JFRMePrMu.pdf">PDF</a></p> -->
       <!-- <p><b>A Game Benchmark for Real-Time Human-Swarm Control</b>
         <br>J. Meyer, A. Pinosky, T. Trzpit, E. Colgate, T. D. Murphey
         <br><i></i>IEEE International Conference on Automation Science and Engineering (CASE), 2022. <a href="/pdfs/2022CASEMePiTrCoMu.pdf">PDF</a></p> -->
